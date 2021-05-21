@@ -1,16 +1,11 @@
 {
-    "name": "neos/neos-base-distribution",
+    "name": "flownative/beach-neos-demo-distribution",
     "type": "project",
-    "description": "Neos Base Distribution",
+    "description": "Neos Demo Distribution for Flownative Beach",
     "license": "GPL-3.0-or-later",
     "support": {
-        "email": "hello@neos.io",
-        "slack": "http://slack.neos.io/",
-        "forum": "https://discuss.neos.io/",
-        "wiki": "https://discuss.neos.io/c/the-neos-project/project-documentation",
-        "issues": "https://github.com/neos/neos-development-collection/issues",
-        "docs": "http://neos.readthedocs.org/",
-        "source": "https://github.com/neos/neos-base-distribution"
+        "email": "support@flownative.com",
+        "source": "https://github.com/flownative/beach-neos-demo"
     },
     "config": {
         "vendor-dir": "Packages/Libraries",
@@ -27,7 +22,9 @@
         "neos/redirecthandler-databasestorage": "^5.0",
         "neos/redirecthandler-ui": "^2.4",
         "neos/setup": "^5.0",
-        "neos/neos-setup": "^1.1"
+        "neos/neos-setup": "^1.1",
+        "rokka/imagine-vips": "0.*",
+        "flownative/google-cloudstorage": "5.*"
     },
     "require-dev": {
         "neos/buildessentials": "^7.1",
