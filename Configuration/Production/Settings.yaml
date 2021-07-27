@@ -1,0 +1,26 @@
+Flownative:
+  Aws:
+    S3:
+      profiles:
+        default:
+          # Select the API version to use
+          version: '2006-03-01'
+
+          # Don't use the old signature v2 - certain regions don't support them
+          signature_version: 'v4'
+
+          # Define credentials for authentication
+          credentials:
+            key: '%env:FLOWNATIVE_AWS_S3_KEY%'
+            secret: '%env:FLOWNATIVE_AWS_S3_SECRET%'
+
+          # If the region is not specified, the default region will be used (according to the S3 service)
+          region: '%env:FLOWNATIVE_AWS_S3_REGION%'
+
+          # URI Scheme of the base URL (e.g.. 'https', 'http') used when endpoint is not supplied
+          scheme: 'https'
+
+          # Custom endpoint, for example for Google Cloud Storage
+          endpoint: '%env:FLOWNATIVE_AWS_S3_ENDPOINT%'
+
+          use_path_style_endpoint: true
