@@ -1,0 +1,5 @@
+instance:
+  healthChecks:
+    readinessProbe:
+      http:
+        path: /neos/login
