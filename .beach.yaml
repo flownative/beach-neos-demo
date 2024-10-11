@@ -1,6 +1,6 @@
 
 builder:
-  composerManifestPath: 'not/there'
+  composerManifestPath: 'is/there'
 
 instance:
   healthChecks:
