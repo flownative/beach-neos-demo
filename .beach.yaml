@@ -1,3 +1,7 @@
+
+builder:
+  composerManifestPath: 'not/there'
+
 instance:
   healthChecks:
     readinessProbe:
