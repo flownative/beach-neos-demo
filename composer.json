@@ -14,25 +14,21 @@
             "neos/composer-plugin": true
         }
     },
-    "minimum-stability": "dev",
     "require": {
-        "neos/neos": "9.0.x-dev",
-        "neos/contentgraph-doctrinedbaladapter": "9.0.x-dev",
-        "neos/neos-ui": "9.0.x-dev",
+        "neos/neos": "^9.0",
+        "neos/contentgraph-doctrinedbaladapter": "^9.0",
+        "neos/neos-ui": "^9.0",
         "neos/seo": "~4.1",
-        "neos/demo": "9.0.x-dev",
+        "neos/demo": "^9.0",
         "neos/setup": "@dev",
         "rokka/imagine-vips": "0.*",
-        "flownative/google-cloudstorage": "6.*",
-        "neos/redirecthandler-databasestorage": "dev-main",
-        "neos/redirecthandler-ui": "dev-main"
+        "flownative/google-cloudstorage": "6.*"
     },
     "require-dev": {
         "neos/buildessentials": "~9.0.x-dev",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.0",
-        "neos/neos-setup": "^4.0.x-dev",
-        "neos/site-kickstarter": "9.0.x-dev"
+        "neos/neos-setup": "^4.0.x-dev"
     },
     "repositories": {
         "distributionPackages": {
