@@ -266,16 +266,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.8.6",
+            "version": "2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "937c775a644bd7d2c3dfbb352747488463a6e673"
+                "reference": "fc06c099955929ac67270d169e8b5fb83ad53807"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/937c775a644bd7d2c3dfbb352747488463a6e673",
-                "reference": "937c775a644bd7d2c3dfbb352747488463a6e673",
+                "url": "https://api.github.com/repos/composer/composer/zipball/fc06c099955929ac67270d169e8b5fb83ad53807",
+                "reference": "fc06c099955929ac67270d169e8b5fb83ad53807",
                 "shasum": ""
             },
             "require": {
@@ -286,7 +286,7 @@
                 "composer/semver": "^3.3",
                 "composer/spdx-licenses": "^1.5.7",
                 "composer/xdebug-handler": "^2.0.2 || ^3.0.3",
-                "justinrainbow/json-schema": "^5.3",
+                "justinrainbow/json-schema": "^6.3.1",
                 "php": "^7.2.5 || ^8.0",
                 "psr/log": "^1.0 || ^2.0 || ^3.0",
                 "react/promise": "^2.11 || ^3.2",
@@ -360,7 +360,7 @@
                 "irc": "ircs://irc.libera.chat:6697/composer",
                 "issues": "https://github.com/composer/composer/issues",
                 "security": "https://github.com/composer/composer/security/policy",
-                "source": "https://github.com/composer/composer/tree/2.8.6"
+                "source": "https://github.com/composer/composer/tree/2.8.7"
             },
             "funding": [
                 {
@@ -376,7 +376,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-02-25T12:03:50+00:00"
+            "time": "2025-04-03T14:26:28+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -2063,25 +2063,25 @@
         },
         {
             "name": "flownative/google-cloudstorage",
-            "version": "v6.1.0",
+            "version": "v6.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flownative/flow-google-cloudstorage.git",
-                "reference": "fe304adb0b7f35c43e490e6a1dfde45fa6b70c73"
+                "reference": "fcf893c6a2810aa357c778388a020aa212a99d65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flownative/flow-google-cloudstorage/zipball/fe304adb0b7f35c43e490e6a1dfde45fa6b70c73",
-                "reference": "fe304adb0b7f35c43e490e6a1dfde45fa6b70c73",
+                "url": "https://api.github.com/repos/flownative/flow-google-cloudstorage/zipball/fcf893c6a2810aa357c778388a020aa212a99d65",
+                "reference": "fcf893c6a2810aa357c778388a020aa212a99d65",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-pdo": "*",
                 "ext-zlib": "*",
-                "google/cloud-storage": "^1.1",
-                "neos/flow": "^7.0 || ^8.0 || 9.0.*",
-                "php": "8.0.* || 8.1.* || 8.2.* || 8.3.*"
+                "google/cloud-storage": "^1.40",
+                "neos/flow": "^8.0 || 9.0.*",
+                "php": "^8.1"
             },
             "type": "neos-package",
             "extra": {
@@ -2164,9 +2164,9 @@
             "description": "This Flow package allows you to store assets (resources) in Google Cloud Storage and publish resources to GCS.",
             "support": {
                 "issues": "https://github.com/flownative/flow-google-cloudstorage/issues",
-                "source": "https://github.com/flownative/flow-google-cloudstorage/tree/v6.1.0"
+                "source": "https://github.com/flownative/flow-google-cloudstorage/tree/v6.1.1"
             },
-            "time": "2025-02-05T11:33:20+00:00"
+            "time": "2025-04-03T15:31:50+00:00"
         },
         {
             "name": "google/auth",
@@ -3095,30 +3095,40 @@
         },
         {
             "name": "justinrainbow/json-schema",
-            "version": "5.3.0",
+            "version": "6.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jsonrainbow/json-schema.git",
-                "reference": "feb2ca6dd1cebdaf1ed60a4c8de2e53ce11c4fd8"
+                "reference": "16b274cb469bc8165c59b76c283724a035d27f4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/feb2ca6dd1cebdaf1ed60a4c8de2e53ce11c4fd8",
-                "reference": "feb2ca6dd1cebdaf1ed60a4c8de2e53ce11c4fd8",
+                "url": "https://api.github.com/repos/jsonrainbow/json-schema/zipball/16b274cb469bc8165c59b76c283724a035d27f4c",
+                "reference": "16b274cb469bc8165c59b76c283724a035d27f4c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "ext-json": "*",
+                "marc-mabe/php-enum": "^4.0",
+                "php": "^7.2 || ^8.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.2.20||~2.15.1",
+                "friendsofphp/php-cs-fixer": "3.3.0",
                 "json-schema/json-schema-test-suite": "1.2.0",
-                "phpunit/phpunit": "^4.8.35"
+                "marc-mabe/php-enum-phpstan": "^2.0",
+                "phpspec/prophecy": "^1.19",
+                "phpstan/phpstan": "^1.12",
+                "phpunit/phpunit": "^8.5"
             },
             "bin": [
                 "bin/validate-json"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "JsonSchema\\": "src/JsonSchema/"
@@ -3147,16 +3157,16 @@
                 }
             ],
             "description": "A library to validate a json schema.",
-            "homepage": "https://github.com/justinrainbow/json-schema",
+            "homepage": "https://github.com/jsonrainbow/json-schema",
             "keywords": [
                 "json",
                 "schema"
             ],
             "support": {
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
-                "source": "https://github.com/jsonrainbow/json-schema/tree/5.3.0"
+                "source": "https://github.com/jsonrainbow/json-schema/tree/6.4.0"
             },
-            "time": "2024-07-06T21:00:26+00:00"
+            "time": "2025-04-01T18:50:59+00:00"
         },
         {
             "name": "laminas/laminas-code",
@@ -3410,6 +3420,79 @@
             "time": "2024-09-21T08:32:55+00:00"
         },
         {
+            "name": "marc-mabe/php-enum",
+            "version": "v4.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marc-mabe/php-enum.git",
+                "reference": "7159809e5cfa041dca28e61f7f7ae58063aae8ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marc-mabe/php-enum/zipball/7159809e5cfa041dca28e61f7f7ae58063aae8ed",
+                "reference": "7159809e5cfa041dca28e61f7f7ae58063aae8ed",
+                "shasum": ""
+            },
+            "require": {
+                "ext-reflection": "*",
+                "php": "^7.1 | ^8.0"
+            },
+            "require-dev": {
+                "phpbench/phpbench": "^0.16.10 || ^1.0.4",
+                "phpstan/phpstan": "^1.3.1",
+                "phpunit/phpunit": "^7.5.20 | ^8.5.22 | ^9.5.11",
+                "vimeo/psalm": "^4.17.0 | ^5.26.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-3.x": "3.2-dev",
+                    "dev-master": "4.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MabeEnum\\": "src/"
+                },
+                "classmap": [
+                    "stubs/Stringable.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Marc Bennewitz",
+                    "email": "dev@mabe.berlin",
+                    "homepage": "https://mabe.berlin/",
+                    "role": "Lead"
+                }
+            ],
+            "description": "Simple and fast implementation of enumerations with native PHP",
+            "homepage": "https://github.com/marc-mabe/php-enum",
+            "keywords": [
+                "enum",
+                "enum-map",
+                "enum-set",
+                "enumeration",
+                "enumerator",
+                "enummap",
+                "enumset",
+                "map",
+                "set",
+                "type",
+                "type-hint",
+                "typehint"
+            ],
+            "support": {
+                "issues": "https://github.com/marc-mabe/php-enum/issues",
+                "source": "https://github.com/marc-mabe/php-enum/tree/v4.7.1"
+            },
+            "time": "2024-11-28T04:54:44+00:00"
+        },
+        {
             "name": "masterminds/html5",
             "version": "2.9.0",
             "source": {
@@ -3581,7 +3664,7 @@
         },
         {
             "name": "neos/cache",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/cache.git",
@@ -3634,7 +3717,7 @@
             "description": "Neos Cache Framework",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/cache/tree/9.0.0"
+                "source": "https://github.com/neos/cache/tree/9.0.1"
             },
             "funding": [
                 {
@@ -3697,7 +3780,7 @@
         },
         {
             "name": "neos/contentgraph-doctrinedbaladapter",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentgraph-doctrinedbaladapter.git",
@@ -3743,7 +3826,7 @@
         },
         {
             "name": "neos/contentrepository-core",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-core.git",
@@ -3803,7 +3886,7 @@
         },
         {
             "name": "neos/contentrepository-export",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-export.git",
@@ -3856,7 +3939,7 @@
         },
         {
             "name": "neos/contentrepository-nodeaccess",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-nodeaccess.git",
@@ -3980,7 +4063,7 @@
         },
         {
             "name": "neos/contentrepository-nodemigration",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-nodemigration.git",
@@ -4116,7 +4199,7 @@
         },
         {
             "name": "neos/contentrepository-structureadjustment",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepository-structureadjustment.git",
@@ -4252,7 +4335,7 @@
         },
         {
             "name": "neos/contentrepositoryregistry",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/contentrepositoryregistry.git",
@@ -4440,7 +4523,7 @@
         },
         {
             "name": "neos/diff",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/diff.git",
@@ -4481,7 +4564,7 @@
         },
         {
             "name": "neos/eel",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/eel.git",
@@ -4517,7 +4600,7 @@
             ],
             "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
             "support": {
-                "source": "https://github.com/neos/eel/tree/9.0.0"
+                "source": "https://github.com/neos/eel/tree/9.0.1"
             },
             "funding": [
                 {
@@ -4529,7 +4612,7 @@
         },
         {
             "name": "neos/error-messages",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/error-messages.git",
@@ -4560,7 +4643,7 @@
             "description": "Flow error messages",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/error-messages/tree/9.0.0"
+                "source": "https://github.com/neos/error-messages/tree/9.0.1"
             },
             "funding": [
                 {
@@ -4671,16 +4754,16 @@
         },
         {
             "name": "neos/flow",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/flow.git",
-                "reference": "3b127e015d0092fabeac4a5c7e54eef947f26b1c"
+                "reference": "7a96cb0a0411f802424e721551747fe11ffc652d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/flow/zipball/3b127e015d0092fabeac4a5c7e54eef947f26b1c",
-                "reference": "3b127e015d0092fabeac4a5c7e54eef947f26b1c",
+                "url": "https://api.github.com/repos/neos/flow/zipball/7a96cb0a0411f802424e721551747fe11ffc652d",
+                "reference": "7a96cb0a0411f802424e721551747fe11ffc652d",
                 "shasum": ""
             },
             "require": {
@@ -4770,7 +4853,7 @@
             "description": "Flow Application Framework",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/flow/tree/9.0.0"
+                "source": "https://github.com/neos/flow/tree/9.0.1"
             },
             "funding": [
                 {
@@ -4778,11 +4861,11 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-03T12:56:12+00:00"
+            "time": "2025-04-03T16:56:47+00:00"
         },
         {
             "name": "neos/flow-log",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/flow-log.git",
@@ -4823,7 +4906,7 @@
             "description": "Flow Framework Logger",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/flow-log/tree/9.0.0"
+                "source": "https://github.com/neos/flow-log/tree/9.0.1"
             },
             "funding": [
                 {
@@ -4835,7 +4918,7 @@
         },
         {
             "name": "neos/fluid-adaptor",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/fluidadaptor.git",
@@ -4868,7 +4951,7 @@
             ],
             "description": "Fluid Templating Framework Adaptor",
             "support": {
-                "source": "https://github.com/neos/fluidadaptor/tree/9.0.0"
+                "source": "https://github.com/neos/fluidadaptor/tree/9.0.1"
             },
             "funding": [
                 {
@@ -4880,7 +4963,7 @@
         },
         {
             "name": "neos/fusion",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/fusion.git",
@@ -5018,7 +5101,7 @@
         },
         {
             "name": "neos/fusion-afx",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/fusion-afx.git",
@@ -5126,7 +5209,7 @@
         },
         {
             "name": "neos/http-factories",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/http-factories.git",
@@ -5162,7 +5245,7 @@
             "description": "PSR-17 HTTP Factories",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/http-factories/tree/9.0.0"
+                "source": "https://github.com/neos/http-factories/tree/9.0.1"
             },
             "funding": [
                 {
@@ -5317,7 +5400,7 @@
         },
         {
             "name": "neos/media",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/media.git",
@@ -5463,7 +5546,7 @@
         },
         {
             "name": "neos/media-browser",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/media-browser.git",
@@ -5598,16 +5681,16 @@
         },
         {
             "name": "neos/neos",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/neos.git",
-                "reference": "6eb1283ec0d4821de5e135a190b7972496a19336"
+                "reference": "94d9a84fd2f13a00d3151ee9487cdf4b35fbf505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neos/neos/zipball/6eb1283ec0d4821de5e135a190b7972496a19336",
-                "reference": "6eb1283ec0d4821de5e135a190b7972496a19336",
+                "url": "https://api.github.com/repos/neos/neos/zipball/94d9a84fd2f13a00d3151ee9487cdf4b35fbf505",
+                "reference": "94d9a84fd2f13a00d3151ee9487cdf4b35fbf505",
                 "shasum": ""
             },
             "require": {
@@ -5756,7 +5839,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2025-04-03T12:51:26+00:00"
+            "time": "2025-04-03T14:09:40+00:00"
         },
         {
             "name": "neos/neos-ui",
@@ -5920,7 +6003,7 @@
         },
         {
             "name": "neos/nodetypes-assetlist",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-assetlist.git",
@@ -6047,7 +6130,7 @@
         },
         {
             "name": "neos/nodetypes-basemixins",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-basemixins.git",
@@ -6173,7 +6256,7 @@
         },
         {
             "name": "neos/nodetypes-contentreferences",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-contentreferences.git",
@@ -6299,7 +6382,7 @@
         },
         {
             "name": "neos/nodetypes-html",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-html.git",
@@ -6426,7 +6509,7 @@
         },
         {
             "name": "neos/nodetypes-navigation",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/nodetypes-navigation.git",
@@ -6859,7 +6942,7 @@
         },
         {
             "name": "neos/utility-arrays",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-arrays.git",
@@ -6897,7 +6980,7 @@
             "description": "Flow Array Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-arrays/tree/9.0.0"
+                "source": "https://github.com/neos/utility-arrays/tree/9.0.1"
             },
             "funding": [
                 {
@@ -6909,7 +6992,7 @@
         },
         {
             "name": "neos/utility-files",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-files.git",
@@ -6947,7 +7030,7 @@
             "description": "Flow Files Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-files/tree/9.0.0"
+                "source": "https://github.com/neos/utility-files/tree/9.0.1"
             },
             "funding": [
                 {
@@ -6959,7 +7042,7 @@
         },
         {
             "name": "neos/utility-mediatypes",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-mediatypes.git",
@@ -6996,7 +7079,7 @@
             "description": "Flow Media Types Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-mediatypes/tree/9.0.0"
+                "source": "https://github.com/neos/utility-mediatypes/tree/9.0.1"
             },
             "funding": [
                 {
@@ -7008,7 +7091,7 @@
         },
         {
             "name": "neos/utility-objecthandling",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-objecthandling.git",
@@ -7046,7 +7129,7 @@
             "description": "Flow array/object property and type utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-objecthandling/tree/9.0.0"
+                "source": "https://github.com/neos/utility-objecthandling/tree/9.0.1"
             },
             "funding": [
                 {
@@ -7058,7 +7141,7 @@
         },
         {
             "name": "neos/utility-opcodecache",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-opcodecache.git",
@@ -7091,7 +7174,7 @@
             "description": "Flow Opcode Cache Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-opcodecache/tree/9.0.0"
+                "source": "https://github.com/neos/utility-opcodecache/tree/9.0.1"
             },
             "funding": [
                 {
@@ -7103,7 +7186,7 @@
         },
         {
             "name": "neos/utility-pdo",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-pdo.git",
@@ -7136,7 +7219,7 @@
             "description": "Flow PDO Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-pdo/tree/9.0.0"
+                "source": "https://github.com/neos/utility-pdo/tree/9.0.1"
             },
             "funding": [
                 {
@@ -7148,7 +7231,7 @@
         },
         {
             "name": "neos/utility-schema",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-schema.git",
@@ -7186,7 +7269,7 @@
             "description": "Flow Schema Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-schema/tree/9.0.0"
+                "source": "https://github.com/neos/utility-schema/tree/9.0.1"
             },
             "funding": [
                 {
@@ -7198,7 +7281,7 @@
         },
         {
             "name": "neos/utility-unicode",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/utility-unicode.git",
@@ -7234,7 +7317,7 @@
             "description": "Flow Unicode Utilities",
             "homepage": "http://flow.neos.io",
             "support": {
-                "source": "https://github.com/neos/utility-unicode/tree/9.0.0"
+                "source": "https://github.com/neos/utility-unicode/tree/9.0.1"
             },
             "funding": [
                 {
@@ -7246,7 +7329,7 @@
         },
         {
             "name": "neos/workspace-ui",
-            "version": "9.0.0",
+            "version": "9.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neos/workspace-ui.git",
