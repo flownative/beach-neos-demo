@@ -19,15 +19,13 @@
         "neos/site-kickstarter": "~8.3.0",
 
         "neos/demo": "~8.3.0",
-        "neos/neos-ui": "@dev",
+        "neos/neos-ui": "~8.3.0",
         "neos/seo": "~3.0",
         "neos/redirecthandler-neosadapter": "~4.2",
         "neos/redirecthandler-databasestorage": "~5.0",
         "neos/redirecthandler-ui": "~2.4",
 
-        "neos/cli-setup": "~8.3.0",
-        "neos/setup": "@dev",
-        "neos/neos-setup": "@dev",
+        "neos/neos-setup": "^3.0",
         "rokka/imagine-vips": "0.*",
         "flownative/google-cloudstorage": "5.*"
     },
@@ -43,9 +41,6 @@
             "type": "path",
             "url": "./DistributionPackages/*"
         }
-    },
-    "replace": {
-        "typo3/neos-base-distribution": "self.version"
     },
     "suggest": {
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
