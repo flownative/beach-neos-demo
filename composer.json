@@ -20,15 +20,14 @@
         "neos/neos-ui": "^9.0",
         "neos/seo": "~4.1",
         "neos/demo": "^9.0",
-        "neos/setup": "@dev",
         "rokka/imagine-vips": "0.*",
         "flownative/google-cloudstorage": "6.*"
     },
     "require-dev": {
-        "neos/buildessentials": "~9.0.x-dev",
+        "neos/buildessentials": "~9.0.0",
         "mikey179/vfsstream": "^1.6",
         "phpunit/phpunit": "^9.0",
-        "neos/neos-setup": "^4.0.x-dev"
+        "neos/neos-setup": "^4.0.0"
     },
     "repositories": {
         "distributionPackages": {
