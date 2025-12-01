@@ -3,3 +3,4 @@ instance:
     readinessProbe:
       http:
         path: /neos/login
+        
